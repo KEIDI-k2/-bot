@@ -1,3 +1,3 @@
-@OnMastodonTootRequest
+@urn:ietf:wg:oauth:2.0:oob
 クリスタのログボ取ってね。\n#クリスタログボ取ってbot
 ＃UTC時刻なので9を足す
