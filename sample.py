@@ -46,7 +46,7 @@ if __name__ == '__main__':
 	#投稿するメッセージ
 	status = get_message(shiori)
 	#公開範囲 public(公開), unlisted(未収載), private(フォロワーのみ), direct(指定された相手のみ) (directは宛先も必要)
-	visibility = 'unlisted'
+	visibility = 'public'
 	#投稿
 	post_entry(mastodon_url, access_token, status, visibility)
 	#ログメッセージ
