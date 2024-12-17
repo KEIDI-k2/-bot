@@ -30,7 +30,7 @@ def get_message(shiori):
 
 #Mastodonへ投稿する
 def post_entry(mastodon_url, access_token, status, visibility='unlisted'):
-	url = f'{mastodon_url}api/v1/statuses'
+	url = f'{mastodon_url}/api/v1/statuses'
 	headers = {'Authorization': f'Bearer {access_token}'}
 	payload = {'status': status, 'visibility': visibility}
 	r = requests.post(url, data=payload, headers=headers)
