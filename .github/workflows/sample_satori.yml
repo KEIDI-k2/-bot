@@ -1,7 +1,5 @@
 name: Satori Sample
 on:
-  schedule:
-    - cron: '30 12 * * *'
   workflow_dispatch:
 jobs:
   toot:
