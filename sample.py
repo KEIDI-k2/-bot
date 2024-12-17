@@ -40,7 +40,7 @@ if __name__ == '__main__':
 	#使用する栞
 	shiori = sys.argv[1]
 	#投稿先のMastodonのURL
-	mastodon_url = 'https://ukadon.shillest.net/'
+	mastodon_url = 'https://kmy.blue/'
 	#アクセストークン これはGitHubのSettingでActions secretsを設定しておきます ナイショの文字列なので
 	access_token = os.getenv('MASTODON_ACCESS_TOKEN')
 	#投稿するメッセージ
